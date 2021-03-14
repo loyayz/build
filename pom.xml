@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
 
     <name>build</name>
+    <description>mvn build root</description>
     <url>https://github.com/loyayz/build</url>
 
     <licenses>
