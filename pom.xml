@@ -6,7 +6,7 @@
 
     <groupId>io.simpleframework</groupId>
     <artifactId>build</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <name>build</name>
@@ -78,6 +78,7 @@
                 <version>${maven-javadoc-plugin.version}</version>
                 <configuration>
                     <failOnError>false</failOnError>
+                    <doclint>none</doclint>
                 </configuration>
                 <executions>
                     <execution>
