@@ -6,7 +6,7 @@
 
     <groupId>io.simpleframework</groupId>
     <artifactId>build</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <name>build</name>
@@ -38,6 +38,7 @@
         <java.version>1.8</java.version>
         <project.encoding>UTF-8</project.encoding>
         <project.build.encoding>UTF-8</project.build.encoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!--maven plugin-->
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
